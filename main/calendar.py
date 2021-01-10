@@ -299,6 +299,7 @@ def temp():
             except:
                 print("\nINVALID INPUT! PLEASE TRY AGAIN!")
                 temp()
+        
         elif (U == 7):
             try:
                 iz = int(input("ENTER YEAR [FORMAT: YYYY] --\t"))
@@ -307,6 +308,7 @@ def temp():
             except:
                 print("\nINVALID INPUT! PLEASE TRY AGAIN!")
                 temp()
+        
         else:
             print("\nINVALID INPUT! PLEASE TRY AGAIN!")
             temp()
